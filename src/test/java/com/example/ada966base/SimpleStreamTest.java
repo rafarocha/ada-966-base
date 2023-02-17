@@ -22,6 +22,7 @@ public class SimpleStreamTest {
 
         // entao
         assertEquals(List.of(0, 3, 6), resultado);
+        
     }
 
     @Test

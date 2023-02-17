@@ -8,6 +8,7 @@ public class Observador implements Observer {
     public Observador(Protocolo protocolo, String name) {
         this.protocolo = protocolo;
         this.name = name;
+        this.protocolo.registrar(this);
     }
 
     @Override  public void atualizar() {

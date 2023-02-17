@@ -7,7 +7,7 @@ public interface Protocolo {
 
     public void notificar();
 
-    public String getUpdate(Observer observer);
+    public String getMensagem(Observer observer);
     public void publicar(String mensagem);
 
 }

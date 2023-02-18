@@ -9,9 +9,9 @@ public class Main {
         Observer obs2 = new Observador(protocolo, "Alice");
         Observer obs3 = new Observador(protocolo, "Sam");
 
-        protocolo.publicar("Parabens, você foi aprovado!");
+        obs1.atualizar();
 
-        //obs1.atualizar();
+        protocolo.publicar("Parabens, você foi aprovado!");
 
     }
 
